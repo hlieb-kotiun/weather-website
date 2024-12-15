@@ -5,9 +5,41 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="background-img">
+    <header class="header">
+      <div class="container header-container">
+        <a href="../index.html" class="logo"
+          ><svg class="logo-icon-part-1" width="17" height="15">
+            <use href="./img/icons.svg#icon-logo-part-1-mb"></use>
+          </svg>
+          <svg class="logo-icon-part-2" width="13" height="15">
+            <use href="./img/icons.svg#icon-logo-part-2-mb"></use>
+          </svg>
+          <svg class="logo-icon-part-3" width="9" height="20">
+            <use href="./img/icons.svg#icon-logo-part-3-mb"></use>
+          </svg>
+        </a>
+
+        <form class="search-form">
+          <div class="input-wrapper">
+            <input
+              type="text"
+              class="location-search"
+              placeholder="Search Location..."
+            />
+            <button class="search-btn" type="submit"><svg class="search-btn-icon" width="12" height="11"><use href="./img/icons.svg#icon-search"/></svg></svg></button>
+                    </form>
+          </div>
+      </div>
+    </header>
+    <main></main>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

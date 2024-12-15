@@ -10,8 +10,7 @@
 @import url('./container.css');
 
 /* Sections style */
-/* @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css'); */
+@import url('./background.css');
+
+@import url('./header.css');
+@import url('./footer.css');
